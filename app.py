@@ -9,6 +9,7 @@ from src.model_lstm import build_lstm
 from src.decision import recommend
 from src.news_integration import fetch_news, summarize_with_gemini
 
+
 # -------------------- Streamlit Setup --------------------
 st.set_page_config(page_title="AI Stock Forecaster", layout="wide")
 st.title("📈 AI-Powered Stock Prediction & News Insights")
